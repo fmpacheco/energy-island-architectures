@@ -4,22 +4,28 @@ This repository contains the modelling framework developed for the master's thes
 
 **"Assessing Offshore Energy Island Architectures for Renewable Integration in the European Energy System"**
 
+---
+
 ## Overview
 
-This project evaluates different offshore energy island configurations using a PyPSA-Eur based modelling approach. The analysis focuses on:
+This project evaluates offshore energy island configurations using a PyPSA-Eur based modelling approach. The analysis focuses on:
 
 - Integration of offshore wind generation
-- Electricity market impacts across European countries
+- Impact on European electricity markets
 - Comparison between different energy island architectures
 - Hydrogen production as a flexibility mechanism
+
+---
 
 ## Scenarios
 
 The following scenarios are analysed:
 
-- Baseline (no energy island)
-- Electrical export-focused configuration
-- Multi-vector configuration with hydrogen integration
+- **Baseline** – no energy island
+- **Electrical export configuration** – direct electricity export to mainland
+- **Multi-vector configuration** – integration of hydrogen production via electrolysis
+
+---
 
 ## Methodology
 
@@ -31,4 +37,17 @@ The model is based on the PyPSA-Eur framework and includes:
 - Electrolysis modelling
 - Market-based dispatch simulation
 
-## Repository Structure
+---
+
+
+## Reproducibility
+
+The code provided allows reproduction of the main results presented in the thesis and can be adapted to explore additional scenarios.
+
+---
+
+## Author
+
+Francisco Pacheco  
+Master in Electrical and Computer Engineering  
+NOVA University Lisbon
